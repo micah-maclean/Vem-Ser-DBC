@@ -1,0 +1,24 @@
+.container-flex{
+    display: flex;
+}
+
+.bloco1{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+.bloco2{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+.bloco3{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+}
+.bloco4{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
