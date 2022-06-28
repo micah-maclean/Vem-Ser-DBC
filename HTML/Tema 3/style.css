@@ -6,6 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    line-height: 21px;
 }
 
 header{
@@ -75,6 +76,7 @@ header a{
 
 .recommended p{
     font-size: 14px;
+    line-height: 17px;
     margin-top: 5px;
 }
 
@@ -89,7 +91,6 @@ header a{
 
 .blog-column1 .post{
     height: 745px;
-    
 }
 
 .blog-column1 img{

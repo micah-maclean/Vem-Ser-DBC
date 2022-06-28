@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+header{
+    background-color: #2C2C2C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin-bottom: 40px;
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+    text-decoration: underline 3px;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* Galery */
+.galery img{
+    width: 100%;
+}
+
+.galery .grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.galery .card p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* News */
+.news .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 40px 20px;
+}
+
+.news .card img{
+    width: 100%;
+}
+
+.column-1 {
+    text-align: center;
+}
+
+.column-2 .card, .column-3 .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.column-2, .column-3{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Youtube */
+.youtube .grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.youtube .video img{
+    width: 885px;
+    height: 530px;
+}
+
+.youtube .recommended{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.youtube .recommended-video img{
+    width: 247px;
+    height: 180px;
+}
+
+/* Blog */
+.blog .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.blog .post img{
+    width: 590px;
+    height: 600px;
+}
+
+.blog .small-post:last-child {
+    margin-top: -45px;  
+}
+
+.blog .small-post img{
+    width: 590px;
+    height: 290px;
+}
+
+.blog p {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #2C2C2C;
+    color: white;
+    top: -45px;
+}
