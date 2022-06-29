@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -18,8 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    margin-bottom: 40px;
+    padding: 20px;
 }
 
 header ul{
@@ -44,8 +41,9 @@ header a:hover{
 
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 20px auto;
 }
+
 /* Galery */
 .galery img{
     width: 100%;
@@ -58,38 +56,41 @@ header a:hover{
     grid-template-rows: 1fr 1fr;
 }
 
-.galery .card p {
+.galery p {
     padding-top: 10px;
     text-align: center;
 }
 
 /* News */
-.news .grid{
+.news .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    gap: 40px 20px;
+    gap: 20px;
 }
 
-.news .card img{
+.news div img {
     width: 100%;
 }
 
-.column-1 {
+.news .ads {
     text-align: center;
 }
 
-.column-2 .card, .column-3 .card{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    align-items: center;
-}
-
-.column-2, .column-3{
+.news .column-2, .news .column-3 {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
+}
+
+.news .column-2 div, .news .column-3 div {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+}
+
+.news .column-2 div p, .news .column-3 div p {
+    align-self: center;
 }
 
 /* Youtube */
@@ -100,19 +101,17 @@ header a:hover{
 }
 
 .youtube .video img{
-    width: 885px;
-    height: 530px;
+    width: 100%;
 }
 
-.youtube .recommended{
+.youtube aside{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.youtube .recommended-video img{
-    width: 247px;
-    height: 180px;
+.youtube aside img{
+    width: 100%;
 }
 
 /* Blog */
@@ -123,23 +122,24 @@ header a:hover{
 }
 
 .blog .post img{
-    width: 590px;
-    height: 600px;
+    width: 100%
 }
 
-.blog .small-post:last-child {
-    margin-top: -45px;  
+.blog .column-2{
+    display: grid;
+    gap: 20px;
 }
 
 .blog .small-post img{
-    width: 590px;
-    height: 290px;
+    width: 100%;
+    max-height: 285px;
 }
 
 .blog p {
-    position: relative;
-    padding: 10px 20px;
     background-color: #2C2C2C;
     color: white;
+    margin-bottom: -45px;
+    padding: 10px 20px;
+    position: relative;
     top: -45px;
 }
