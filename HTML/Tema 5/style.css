@@ -28,6 +28,10 @@ body {
     color: #6c757d;
 }
 
+.container {
+    margin: auto;
+}
+
 h1 {
     border-bottom: solid 1px #d9d9d9cb;
     font-weight: 300;
@@ -196,6 +200,17 @@ nav .search input {
     line-height: 30px;
     padding: 4px 8px;
     margin-left: 8px;
+    
+}
+
+nav .search input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+nav .search input:focus{
+    border: 1px solid #78b455;
+    outline: none;
 }
 
 nav .search i{
@@ -241,6 +256,7 @@ nav div .fa-chevron-down{
 .birthday {
     margin-bottom: 16px;
 }
+
 .birthday-card {
     display: grid;
     grid-template-columns: 1fr 3fr;
