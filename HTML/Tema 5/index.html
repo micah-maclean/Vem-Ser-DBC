@@ -10,56 +10,162 @@
 </head>
 <body>
     <header>
-       <a classhref="#"><img src="./images/logo.png" alt="Logo" class="logo"></a>
-       <nav>
-            <a href="#">
-                <i class="fa-solid fa-bars"></i>
-                <p>Menu</p>
-            </a>
-            <input class="barra-de-pesquisa" type="text" placeholder="Pesquisar">
+        <a classhref="#"><img src="./images/logo.png" alt="Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li>   
+                    <a href="#" class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                       Início
+                    </a>
+                </li>
+                <li>
+                    <form  class="search">
+                        <input  type="text" placeholder="Pesquisar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                    
+                </li>
+            </ul>   
+            <div>
+                <span>
+                    <i class="fa-solid fa-bell"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </span>
+            </div>     
        </nav>
-
     </header>
+
     <main>
         <div class="container">
-            <section class="news rounded">
-                <h3>NOTÍCIAS RECENTES</h3>
+            <section class="news rounded box-shadow">
+                <h1>NOTÍCIAS RECENTES</h1>
+                <div class="flex-container">
+                    <div class="news-card rounded box-shadow">
+                        <img src="./images/noticia1.png" alt="" class="rounded">
+                        <div>
+                            <div class="news-card-text">
+                                <h2>Na próxima semana tem DBC Impact 🚀</h2>
+                                <p>Nosso workshop de julho será na próxima <strong>quarta-feira, dia 06!</strong></p>
+                                <p>Vamos conversar sobre a transformação digital e seu avanço nos últimos dois anos, além de discutir sobre desafios, principais insights e oportunidades, apresentando cases reais da Arezzo, Lebes e DBC Company.</p>
+                            </div>
+                            
+                            <div class="text-muted">
+                                <small>28/06/2022</small>
+                                <div class="actions">
+                                    <span>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <small>12</small>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-comments"></i>
+                                        <small>0</small>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-eye"></i>
+                                        <small>37</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="news-card rounded box-shadow">
+                        <img src="./images/noticia2.jpg" alt="" class="rounded">
+                        <div>
+                            <div class="news-card-text">
+                                <h2>É oficial: vai ter Festa Julina em 2022!</h2>
+                                <p>Para celebrar o mês do aniversário da DBC e garantir um momento de interação com a comunidade do Caldeira, fechamos uma parceria com o Mercado Paralelo para estarmos presentes na sua 1ª Quermesse!</p>
+                                <p>Para quem não conhece, o Mercado Paralelo, parceiro</p>
+                            </div>
+                            <div class="text-muted">
+                                <small>28/06/2022</small>
+                                <div class="actions">
+                                    <span>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <small>12</small>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-comments"></i>
+                                        <small>0</small>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-eye"></i>
+                                        <small>37</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="news-card rounded box-shadow">
+                        <img src="./images/noticia3.png" alt="" class="rounded">
+                        <div>
+                            <div class="news-card-text">
+                                <h2>Blog DBC: novo artigo!</h2>
+                                <p><strong>Você já ouviu falar em Deep Learning?</strong></p>
+                                <p> Na área de análise de saúde, ela pode ser uma ferramenta poderosa para o que chamamos de Healthcare Analytics.</p>
+                                <p><strong>Quer entender como?</strong></p>
+                            </div>
+                            <div class="text-muted">
+                                <small>23/06/2022</small>
+                                <div class="actions">
+                                    <span>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <small>12</small>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-comments"></i>
+                                        <small>0</small>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-eye"></i>
+                                        <small>37</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <aside>
                 <section class="systems rounded">
-                    <h3>SISTEMAS E PROCESSOS</h3>
+                    <h1>SISTEMAS E PROCESSOS</h1>
                     <div class="grid">
-                        <div class="rounded">
+                        <div class="rounded box-shadow">
                             <i class="fa-solid fa-users"></i>
                             <span>Contatos</span>
                         </div>
     
-                        <div class="rounded">
+                        <div class="rounded box-shadow">
                             <i class="fa-solid fa-clock"></i>
                             <span>Portal Metadados</span>
                         </div>
     
-                        <div class="rounded">
+                        <div class="rounded box-shadow">
                             <i class="fa-solid fa-brain"></i>
                             <span>BI - DBC</span>
                         </div>
     
-                        <div class="rounded">
+                        <div class="rounded box-shadow">
                             <i class="fa-solid fa-envelope"></i>
                             <span>Emails</span>
                         </div>
     
-                        <div class="rounded">
+                        <div class="rounded box-shadow">
                             <i class="fa-solid fa-screwdriver-wrench"></i>
                             <span>CSC</span>
                         </div>
     
-                        <div class="rounded">
+                        <div class="rounded box-shadow">
                             <i class="fa-solid fa-folder-open"></i>
-                            <span>documentos DBC</span>
+                            <span>Documentos DBC</span>
                         </div>
     
-                        <div class="rounded">
+                        <div class="rounded box-shadow">
                             <i class="fa-solid fa-cloud"></i>
                             <span>File Cloud</span>
                         </div>
@@ -67,9 +173,49 @@
                 </section>
 
                 <section class="birthday rounded">
-                    <h3>ÚLTIMOS ANIVERSÁRIOS</h3>
-                    <div class="grid">
+                    <h1>Últimos Aniversários</h1>
+                    <div class="flex-container">
+                        <div class="birthday-card">
+                            <img src="./images/no-user.jpeg" alt="No user image">
+                            <div>
+                                <h2>Firstname Lastname</h2>
+                                <p>name.lastname@dbccompany.com.br</p>
+                                <span>
+                                    <i class="fa-solid fa-cake-candles"></i>
+                                    <small class="text-muted">26 de junho</small>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
 
+                    <h1>Aniversários de Hoje</h1>
+                    <div class="flex-container">
+                        <div class="birthday-card">
+                            <img src="./images/no-user.jpeg" alt="No user image">
+                            <div>
+                                <h2>Firstname Lastname</h2>
+                                <p>name.lastname@dbccompany.com.br</p>
+                                <span>
+                                    <i class="fa-solid fa-cake-candles"></i>
+                                    <small class="text-muted">29 de junho</small>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1>Próximos Aniversários</h1>
+                    <div class="flex-container">
+                        <div class="birthday-card">
+                            <img src="./images/no-user.jpeg" alt="No user image">
+                            <div>
+                                <h2>Firstname Lastname</h2>
+                                <p>name.lastname@dbccompany.com.br</p>
+                                <span>
+                                    <i class="fa-solid fa-cake-candles"></i>
+                                    <small class="text-muted">30 de junho</small>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </aside>
