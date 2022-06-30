@@ -116,6 +116,10 @@ a {
     margin-right: 12px;
 }
 
+.news-card .actions span i{
+    cursor: pointer;
+}
+
 .news-card .fa-heart{
     color: red;
 }
